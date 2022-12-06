@@ -9,8 +9,11 @@ I am currently working at a state enterprise, I want to learn a programming lang
 ## Skills
 HTML
 SCC
+JS (very little)
+*All this was studied through YouTube. knowledge is not much, but the desire to get it is huge*
 ## my first project 
 __sv__
 ## Education
 **Belarusian Agrarian Technical University**
-
+## English 
+English proficiency level - school
