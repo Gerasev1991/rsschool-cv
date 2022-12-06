@@ -12,9 +12,9 @@ I am currently working at a state enterprise, I want to learn a programming lang
 + JS (very little)
 *All this was studied through YouTube. knowledge is not much, but the desire to get it is huge*
 ## my first project 
-__sv__
+**CV githab**
 ## Education
 **Belarusian Agrarian Technical University**
 ## English 
-1. English proficiency level - school
-2. In parallel with my studies I take English courses
+* English proficiency level - school
+* In parallel with my studies I take English courses
