@@ -17,7 +17,80 @@ body {
 * {
    box-sizing: border-box;
 }
+h1,
+h2 {
+   text-transform: uppercase;
+}
+li {
+   list-style: none;
+}
 .container {
    max-width: 1440px;
    margin: 0 auto;
+}
+.menu {
+}
+.menu-list {
+   text-align: right;
+}
+.menu-item {display: inline;
+   
+}
+.menu-link {
+   padding: 0 15px;
+   height: 20px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+.contacts {
+}
+.profile-contacts {
+}
+.contact {
+}
+li.contact {
+   height: 35px;
+   display: flex;
+   align-items: center;
+}
+.imgcontact-tel {
+background: url('./assets/img/e57e20f30c1ed45a02aca37611a23681.jpg') 0 50%/contain no-repeat ;
+padding: 0 0 0 50px;
+margin: 0 0 10px 0;
+}
+.imgcontact-email {
+background: url('./assets/img/mail_icon_clip_art_preview.jpg') 0 50%/contain no-repeat ;
+padding: 0 0 0 50px;
+margin: 0 0 10px 0;
+}
+.imgcontact-location {
+   background: url('./assets/img/1246335.png') 0 50%/contain no-repeat ;
+padding: 0 0 0 50px;
+}
+.skills {
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   
+}
+.discriptions {
+   width: 100%;
+   background-color: darkgray;
+}
+.range {
+   padding-right: 20px;
+   text-align: right;
+   color: white;
+   line-height: 35px;
+}
+.html {
+   width: 70%;
+   background-color: blue;
+}
+.css {width: 60%;
+   background-color: darkcyan;
+
+}
+.js {
+   width: 10%;
+   background-color: darkgoldenrod;
 }
