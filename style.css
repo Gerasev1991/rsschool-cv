@@ -42,9 +42,33 @@ li {
    letter-spacing: 2px;
    text-transform: uppercase;
 }
+.flex-profile-contacts {
+   display: flex;
+  justify-content: space-evenly;
+}
+.profile {
+   background-color: aqua;
+   border-radius: 25px;
+   padding: 20px;
+
+}
+.profile-name {
+   text-align: center;
+   letter-spacing: 2px;
+   font-style: italic;
+   
+}
+.profile-img {
+   border-radius: 15px;
+   height: 350px;
+   max-width: 100%;
+}
 .contacts {
+   align-self: center;
+   
 }
 .profile-contacts {
+  text-align: center;
 }
 .contact {
 }
@@ -67,7 +91,19 @@ margin: 0 0 10px 0;
    background: url('./assets/img/1246335.png') 0 50%/contain no-repeat ;
 padding: 0 0 0 50px;
 }
+.skills-summary{
+   display: flex;
+  justify-content:space-evenly ;
+}
+.profile-summary {
+   align-self: flex-end;
+width: 40%;
+}
 .skills {
+   background-color: cyan;
+   border-radius: 15px;
+   padding: 13px;
+   width: 50%;
    text-transform: uppercase;
    letter-spacing: 2px;
    
@@ -77,10 +113,10 @@ padding: 0 0 0 50px;
    background-color: darkgray;
 }
 .range {
-   padding-right: 20px;
+   padding-right: 10px;
    text-align: right;
    color: white;
-   line-height: 35px;
+   line-height: 25px;
 }
 .html {
    width: 70%;
@@ -93,4 +129,48 @@ padding: 0 0 0 50px;
 .js {
    width: 10%;
    background-color: darkgoldenrod;
+}
+.flex-code-educ-eng {
+   display: flex;
+   justify-content: space-evenly;
+   margin: 40px 0 0 0;
+   padding: 30px;
+}
+.example-code { 
+   width: 40%;
+   &__codewars {
+      
+   }
+}
+.link-cv {
+  color: black;
+  font-style: oblique;
+  text-align: center;
+}
+.education {
+
+   &__university {
+   }
+}
+.english {
+   width: 30%;
+   text-align: right;
+  
+}
+.english-lvl {
+   text-align: right;
+   padding: 0;
+   margin: 0;
+}
+
+.footer {display: flex;
+   justify-content: space-between;
+   background-color: cornflowerblue;
+  
+}
+.footer-rs {align-self: center;
+}
+
+.footer-imgrss {
+   max-width: 100px;
 }
