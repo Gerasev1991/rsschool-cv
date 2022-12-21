@@ -1,0 +1,38 @@
+header {
+    background: #EDF2EC;
+    padding: 42px 0;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-icon {
+    background: url('/img/logo_vector.svg') 0 0/contain no-repeat;
+    ;
+
+}
+
+.nav-text {
+    padding-left: 20px;
+}
+
+.icon-text {}
+
+.header__navigation {}
+
+.navigation {
+    display: flex;
+}
+
+.navigation__item {
+    list-style: none;
+}
+
+.navigation__item:not(:last-child) {
+    padding: 0 46px 0 0;
+}
+
+.navigation__item-orange {}
